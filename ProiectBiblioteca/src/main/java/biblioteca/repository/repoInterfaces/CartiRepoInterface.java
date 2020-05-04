@@ -12,4 +12,6 @@ public interface CartiRepoInterface {
 	List<Carte> cautaCarte(String ref);
 	List<Carte> getCarti();
 	List<Carte> getCartiOrdonateDinAnul(String an);
+	Carte cautareDupaTitlu(String titlu);
+
 }

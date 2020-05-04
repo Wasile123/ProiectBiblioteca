@@ -117,4 +117,9 @@ public class CartiRepo implements CartiRepoInterface {
 		return lca;
 	}
 
+	@Override
+	public Carte cautareDupaTitlu(String titlu) {
+		return null;
+	}
+
 }
