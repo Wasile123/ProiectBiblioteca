@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="" />
+    <list default="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="lab2+lab3+lab4_task1">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chisd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biblioteca/repository/repoMock/CartiRepoMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ProiectBiblioteca-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProiectBiblioteca-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repo/CartiRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repo/CartiRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,20 +60,32 @@
     </option>
   </component>
   <component name="ProjectId" id="1bCXui1L9xW7AB4iEYJi0kW0QJ1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550940286864" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="biblioteca.repository.repoMock" />
+      <recent name="biblioteca.repository.repo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="biblioteca" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2017-2018\Labs\Proiecte\ProiectBiblioteca" />
@@ -48,9 +104,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CartiRepoMockTest.getCartiOrdonateDinAnul">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="biblioteca.begin.Start" />
+      <module name="ProiectBiblioteca" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.begin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +130,59 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartiRepoMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectBiblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.repository.repoMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="biblioteca.repository.repoMock" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.repository.repoMock.CartiRepoMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartiRepoMockTest.adaugaCarte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectBiblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.repository.repoMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="biblioteca.repository.repoMock" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.repository.repoMock.CartiRepoMockTest" />
+      <option name="METHOD_NAME" value="adaugaCarte" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartiRepoMockTest.getCartiOrdonateDinAnul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectBiblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.repository.repoMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="biblioteca.repository.repoMock" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.repository.repoMock.CartiRepoMockTest" />
+      <option name="METHOD_NAME" value="getCartiOrdonateDinAnul" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,6 +216,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CartiRepoMockTest.getCartiOrdonateDinAnul" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.CartiRepoMockTest.adaugaCarte" />
+        <item itemvalue="JUnit.CartiRepoMockTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Cami\AppData\Roaming\Subversion</configuration>
@@ -111,11 +243,33 @@
       <workItem from="1519565305260" duration="546000" />
       <workItem from="1550939738902" duration="718000" />
       <workItem from="1588137279570" duration="1144000" />
+      <workItem from="1588586084926" duration="567000" />
+      <workItem from="1588586748377" duration="2444000" />
+      <workItem from="1588589442565" duration="4036000" />
+      <workItem from="1588600327462" duration="2092000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab2+lab3+lab4_task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2+lab3+lab4_task1" />
   </component>
   <component name="masterDetails">
     <states>
