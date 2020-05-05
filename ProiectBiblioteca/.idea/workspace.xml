@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="lab2+lab3+lab4_task1">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chisd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/biblioteca/repository/repoMock/CartiRepoMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ProiectBiblioteca-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProiectBiblioteca-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repo/CartiRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repo/CartiRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +64,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -104,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartiRepoMockTest.getCartiOrdonateDinAnul">
+  <component name="RunManager" selected="Application.Start">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -218,8 +209,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CartiRepoMockTest.getCartiOrdonateDinAnul" />
         <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.CartiRepoMockTest.getCartiOrdonateDinAnul" />
         <item itemvalue="JUnit.CartiRepoMockTest.adaugaCarte" />
         <item itemvalue="JUnit.CartiRepoMockTest" />
       </list>
@@ -246,8 +237,17 @@
       <workItem from="1588586084926" duration="567000" />
       <workItem from="1588586748377" duration="2444000" />
       <workItem from="1588589442565" duration="4036000" />
-      <workItem from="1588600327462" duration="2092000" />
+      <workItem from="1588600327462" duration="2302000" />
+      <workItem from="1588678711676" duration="702000" />
     </task>
+    <task id="LOCAL-00001" summary="lab2+lab3+lab4_task1">
+      <created>1588602442377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588602442377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +270,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab2+lab3+lab4_task1" />
     <option name="LAST_COMMIT_MESSAGE" value="lab2+lab3+lab4_task1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

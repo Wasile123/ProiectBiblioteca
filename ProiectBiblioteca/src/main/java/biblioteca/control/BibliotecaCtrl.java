@@ -28,10 +28,10 @@ public class BibliotecaCtrl {
 		cr.stergeCarte(c);
 	}
 
-	public List<Carte> cautaCarte(String autor) throws Exception{
-		Validator.isStringOK(autor);
-		return cr.cautaCarte(autor);
-	}
+//	public List<Carte> cautaCarte(String autor) throws Exception{
+//		Validator.isStringOK(autor);
+//		return cr.cautaCarte(autor);
+//	}
 	
 	public List<Carte> getCarti() throws Exception{
 		return cr.getCarti();
@@ -42,6 +42,9 @@ public class BibliotecaCtrl {
 			throw new Exception("Nu e numar!");
 		return cr.getCartiOrdonateDinAnul(an);
 	}
-	
+	public Carte cautaCarte(String titlu) throws Exception{
+		//Validator.isStringOK(titlu);
+		return cr.cautareDupaTitlu(titlu);
+	}
 	
 }
