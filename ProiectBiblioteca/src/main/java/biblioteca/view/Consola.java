@@ -113,13 +113,12 @@ public class Consola {
 	}
 
 	public void cautaCartiDupaAutor(){
-	
+
 		System.out.println("\n\n\n");
-		System.out.println("Autor:");
+		System.out.println("Titlu:");
 		try {
-			for(Carte c:bc.cautaCarte(console.readLine())){
-				System.out.println(c);
-			}
+			Carte c = bc.cautaCarte(console.readLine());
+			System.out.println(c);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

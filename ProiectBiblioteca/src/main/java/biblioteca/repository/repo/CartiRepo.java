@@ -119,6 +119,12 @@ public class CartiRepo implements CartiRepoInterface {
 
 	@Override
 	public Carte cautareDupaTitlu(String titlu) {
+		List<Carte> carti = getCarti();
+		for(Carte c: carti) {
+			if (c.getTitlu().equals(titlu)) {
+				return c;
+			}
+		}
 		return null;
 	}
 
