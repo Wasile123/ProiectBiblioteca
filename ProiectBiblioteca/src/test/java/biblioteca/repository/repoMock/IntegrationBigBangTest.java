@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class CartiRepoMockTest {
+public class IntegrationBigBangTest {
     private List<Carte> cartiList = new ArrayList<Carte>();
     private CartiRepoMock cartiRepoMock = new CartiRepoMock();
 
@@ -33,14 +33,6 @@ public class CartiRepoMockTest {
 
     }
 
-    @Test
-    public void adaugaCarteSADF01() {
-        cartiList = cartiRepoMock.getCarti();
-        Carte c = Carte.getCarteFromString("Povesti;Mihai Eminescu,Ion Caragiale,Ion Creanga;1973;Corint;povesti,povestiri");
-        cartiRepoMock.adaugaCarte(c);
-        assertEquals(8, cartiList.size());
-
-    }
 
     @Test
     public void cautaDupaTitluTestHAPPYF02() {
@@ -50,13 +42,6 @@ public class CartiRepoMockTest {
         assertNotEquals(cartiList.get(4), cartiRepoMock.cautareDupaTitlu("Test"));
     }
 
-    @Test
-    public void cautaDupaTitluTestSADF02() {
-        cartiList = cartiRepoMock.getCarti();
-
-        assertEquals(cartiList.get(0), cartiRepoMock.cautareDupaTitlu("Test"));
-        assertNotEquals(cartiList.get(0), cartiRepoMock.cautareDupaTitlu("Test"));
-    }
 
     @Test
     public void getCartiOrdonateDinAnulHAPPYF03() {
@@ -72,15 +57,10 @@ public class CartiRepoMockTest {
     }
 
     @Test
-    public void getCartiOrdonateDinAnulSADF03() {
-        String anul = "1948";
-        List<Carte> temp = new ArrayList<Carte>();
-        cartiList = cartiRepoMock.getCarti();
-
-        temp.add(cartiList.get(0));
-        temp.add(cartiList.get(0));
-        temp.add(cartiList.get(0));
-        assertEquals(temp, cartiRepoMock.getCartiOrdonateDinAnul(anul));
-
+    public void caseP() {
+        adaugaCarteHAPPYF01();
+        cautaDupaTitluTestHAPPYF02();
+        getCartiOrdonateDinAnulHAPPYF03();
     }
+
 }
