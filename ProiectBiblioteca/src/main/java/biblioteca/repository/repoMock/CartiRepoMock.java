@@ -100,7 +100,7 @@ public class CartiRepoMock implements CartiRepoInterface {
     @Override
     public Carte cautareDupaTitlu(String titlu) {
         List<Carte> carti = getCarti();
-        for(Carte c: carti) {
+        for (Carte c : carti) {
             if (c.getTitlu().equals(titlu)) {
                 return c;
             }
